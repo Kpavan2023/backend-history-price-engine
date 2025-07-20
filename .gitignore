@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+.env
+.env.local
+
+# production
+.next/
+dist/
+build/
+out/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+.DS_Store
+*.log
+.vscode/
+*.pem
+
+# OS
+Thumbs.db
