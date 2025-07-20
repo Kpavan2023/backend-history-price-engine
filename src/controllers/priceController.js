@@ -1,4 +1,5 @@
 const Price = require("../models/Price");
+require('dotenv').config();
 const { fetchTokenPrice } = require("../utils/fetchTokenPrice");
 const { interpolatePrice } = require("../utils/interpolate");
 const { queue } = require("../workers/scheduler");

@@ -1,4 +1,5 @@
 // src/models/Price.js
+require('dotenv').config();
 const mongoose = require('mongoose');
 
 const priceSchema = new mongoose.Schema({

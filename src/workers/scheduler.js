@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { Queue, Worker } = require('bullmq');
 const redis = require('../utils/redis');
 const { fetchTokenPrice } = require('../utils/fetchTokenPrice');

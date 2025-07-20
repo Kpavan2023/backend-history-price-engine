@@ -1,3 +1,5 @@
+require('dotenv').config(); // Load environment variables from .env
+
 const axios = require('axios');
 
 const ETHERSCAN_BASE_URLS = {
